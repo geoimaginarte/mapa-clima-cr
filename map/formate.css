@@ -1,0 +1,70 @@
+/*imaptitle.html*/
+/****************/
+body.Title { background-color:#E4F0C1; }                         /*title-page background*/
+font.Title { font:16pt Verdana, Arial, Helvetica, sans-serif; } /*title font*/
+
+/*X_dbfX.html*/
+/*************/*
+body.dbf  { background-color:#E4F0C1;                            /*attribute-page backround*/
+            text-align:left; }                                 /*attribute-table position*/
+font.dbfR { font:9px Verdana, Arial, Helvetica, sans-serif; }  /*attribute-table font right */
+font.dbfL { font:9px Verdana, Arial, Helvetica, sans-serif; }  /*attribute-table font left*/
+
+td.dbfL   { background-color:#EDEBA5;    /*background attribute-cells left*/
+            border:0.5px solid;
+            border-color:#6F6F6F;
+            padding:1px; }              /*cell room inside*/
+
+td.dbfR { background-color:#EFEFEF;      /*background attribute-cells right*/
+          border:0.5px solid;
+          border-color:#6F6F6F;
+          padding:1px; }                /*cell room inside*/
+
+table.dbf { background-color:#6F6F6F;    /*background attribute-table*/
+            border:0px solid;
+            border-color:#6F6F6F;}
+
+/*search.html*/
+/*************/
+body.Search   { background-color:#E4F0C1; }                         /*search-page background*/
+font.Search   { font:10pt Verdana, Arial, Helvetica, sans-serif; }
+button.Search { background-color:#F7F7F7; }                        /*search-button design*/
+input.Mozilla { background-color:#F7F7F7; }                        /*search-button design for Moziila*/
+input.Search  { background-color:#FFFFFF; }                        /*search-input field*/
+select.Search { background-color:#FFFFFF; }
+
+table.Search { background-color:#FFFFFF;  /*background search-cells left*/
+               border:0px solid;
+               border-color:#000000;}
+
+td.Search{ background-color:#F7F7F7;  /*background search-cells*/
+           border:0px solid;
+           border-color:#000000;
+           padding:5px;}              /*cell room inside*/
+
+/*mXXXXX.html*/
+/*************/
+body.Main{ background-color:#08b600; }                        /*map-page background*/
+font.Main{ font:8pt Verdana, Arial, Helvetica, sans-serif; } /*font copyright & author!*/
+
+/*others*/
+/********/
+font { font:8pt Verdana, Arial, Helvetica, sans-serif; }
+body { background-color:#E4F0C1; }
+
+
+/*rollover-effects for menu*/
+/***************************/
+a.Menu         { text-decoration:none; }
+a.Menu:link    { color:#000000; background-color:transparent; }
+a.Menu:visited { color:#000000; background-color:transparent; }
+a.Menu:hover   { color:#000000; background-color:#EBEBEB; }
+a.Menu:active  { color:#000000; background-color:transparent; }
+
+/*a rollover-effects for hyperlinks*/
+/*************************************/
+a              { text-decoration:none; }
+a:link         { color:#0000FF; }
+a:visited      { color:#0000FF; }
+a:hover        { color:#AAAAAA; }
+a:active       { color:#AA5555; }

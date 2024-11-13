@@ -1,0 +1,5 @@
+Instrucciones para desplegar el mapa climatológico
+
+HAGA DOBLE CLICK SOBRE EL ARCHIVO “MAPA_CLIMA”
+
+O ABRIR EL ARCHIVO "MAPA_CLIMA" CON INTERNET EXPLORER
